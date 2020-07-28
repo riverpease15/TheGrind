@@ -6,11 +6,16 @@
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <array key="Calligraphy Stye ttf.ttf">
+            <string>CalligraphyStye</string>
+        </array>
+    </customFonts>
     <scenes>
         <!--Home-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController title="Home" id="BYZ-38-t0r" customClass="ViewController" customModule="TheGrind" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Home" modalPresentationStyle="fullScreen" id="BYZ-38-t0r" customClass="ViewController" customModule="TheGrind" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -23,6 +28,9 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <segue destination="WkU-v0-Ugu" kind="presentation" identifier="goDown" modalPresentationStyle="fullScreen" id="SVS-WV-OCn"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -40,6 +48,19 @@
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="K1f-mK-zOo">
+                                <rect key="frame" x="297" y="26" width="97" height="91"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <rect key="contentStretch" x="0.0" y="0.0" width="0.34999999999999998" height="0.0"/>
+                                <fontDescription key="fontDescription" name="CalligraphyStye" family="Calligraphy Stye" pointSize="19"/>
+                                <state key="normal" title="  Back">
+                                    <color key="titleColor" red="0.24262464049999999" green="0.079528369010000002" blue="0.015668896960000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="default"/>
+                                </state>
+                                <connections>
+                                    <segue destination="WkU-v0-Ugu" kind="presentation" modalPresentationStyle="fullScreen" id="8We-dc-elx"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="Hwy-zp-x8I"/>
@@ -82,6 +103,19 @@
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="ymq-Ve-70G">
+                                <rect key="frame" x="297" y="26" width="97" height="91"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <rect key="contentStretch" x="0.0" y="0.0" width="0.34999999999999998" height="0.0"/>
+                                <fontDescription key="fontDescription" name="CalligraphyStye" family="Calligraphy Stye" pointSize="19"/>
+                                <state key="normal" title="  Back">
+                                    <color key="titleColor" red="0.24262464049999999" green="0.079528369010000002" blue="0.015668896960000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="default"/>
+                                </state>
+                                <connections>
+                                    <segue destination="WkU-v0-Ugu" kind="presentation" modalPresentationStyle="fullScreen" id="kuH-xK-fnc"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="yg5-ew-Pqa"/>
@@ -124,6 +158,19 @@
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="fsI-TO-w27">
+                                <rect key="frame" x="297" y="25" width="97" height="91"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <rect key="contentStretch" x="0.0" y="0.0" width="0.34999999999999998" height="0.0"/>
+                                <fontDescription key="fontDescription" name="CalligraphyStye" family="Calligraphy Stye" pointSize="19"/>
+                                <state key="normal" title="  Back">
+                                    <color key="titleColor" red="0.24262464049999999" green="0.079528369010000002" blue="0.015668896960000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="default"/>
+                                </state>
+                                <connections>
+                                    <segue destination="WkU-v0-Ugu" kind="presentation" modalPresentationStyle="fullScreen" id="6r8-xl-HAz"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="eA4-Od-EIm"/>
@@ -145,6 +192,58 @@
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d0G-69-FBa">
+                                <rect key="frame" x="20" y="263" width="160" height="143"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" backgroundImage="Latte"/>
+                                <connections>
+                                    <segue destination="Ddp-q4-NGN" kind="presentation" modalPresentationStyle="fullScreen" id="H9N-xM-WdD"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jwJ-aK-3wp">
+                                <rect key="frame" x="228" y="223" width="154" height="154"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" backgroundImage="Cappucino"/>
+                                <connections>
+                                    <segue destination="jFM-z6-vmW" kind="presentation" modalPresentationStyle="fullScreen" id="Kwj-kb-Mc3"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aK1-oF-9Kz">
+                                <rect key="frame" x="20" y="445" width="154" height="154"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cpg-fZ-LCK">
+                                <rect key="frame" x="20" y="448" width="151" height="172"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" backgroundImage="Affogato"/>
+                                <connections>
+                                    <segue destination="wFR-dH-Qul" kind="presentation" modalPresentationStyle="fullScreen" id="jPe-66-kw1"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SWe-QV-JC0">
+                                <rect key="frame" x="210" y="423" width="159" height="143"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" backgroundImage="Macchiato"/>
+                                <connections>
+                                    <segue destination="1HU-fd-fPN" kind="presentation" modalPresentationStyle="fullScreen" id="OZX-U7-iTv"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9O3-Zk-o2v">
+                                <rect key="frame" x="20" y="660" width="162" height="147"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" backgroundImage="Dalgona"/>
+                                <connections>
+                                    <segue destination="tS0-la-c7p" kind="presentation" modalPresentationStyle="fullScreen" id="9bn-DE-pb3"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="M8Q-5L-fAR">
+                                <rect key="frame" x="223" y="621" width="165" height="157"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" backgroundImage="Mocha"/>
+                                <connections>
+                                    <segue destination="uPA-xP-zD7" kind="presentation" modalPresentationStyle="fullScreen" id="J3e-Ih-yKc"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="Ugi-D6-YIs"/>
@@ -152,7 +251,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rPf-dt-fRK" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="342" y="118"/>
+            <point key="canvasLocation" x="340.57971014492756" y="117.85714285714285"/>
         </scene>
         <!--Latte-->
         <scene sceneID="YnU-Y7-BBA">
@@ -166,14 +265,28 @@
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="Lec-nF-LH9">
+                                <rect key="frame" x="297" y="21" width="97" height="91"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <rect key="contentStretch" x="0.0" y="0.0" width="0.34999999999999998" height="0.0"/>
+                                <fontDescription key="fontDescription" name="CalligraphyStye" family="Calligraphy Stye" pointSize="19"/>
+                                <state key="normal" title="  Back">
+                                    <color key="titleColor" red="0.24262464049999999" green="0.079528369010000002" blue="0.015668896960000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="default"/>
+                                </state>
+                                <connections>
+                                    <segue destination="WkU-v0-Ugu" kind="presentation" modalPresentationStyle="fullScreen" id="6lN-2J-9et"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="kt0-it-ilC"/>
                     </view>
+                    <navigationItem key="navigationItem" id="hyr-z6-PW6"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5oL-TT-ssS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1339" y="118"/>
+            <point key="canvasLocation" x="1337.68115942029" y="117.85714285714285"/>
         </scene>
         <!--LatteHowTo-->
         <scene sceneID="Tcg-WS-fr7">
@@ -208,6 +321,19 @@
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="hHd-x4-sx8">
+                                <rect key="frame" x="297" y="24" width="97" height="91"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <rect key="contentStretch" x="0.0" y="0.0" width="0.34999999999999998" height="0.0"/>
+                                <fontDescription key="fontDescription" name="CalligraphyStye" family="Calligraphy Stye" pointSize="19"/>
+                                <state key="normal" title="  Back">
+                                    <color key="titleColor" red="0.24262464049999999" green="0.079528369010000002" blue="0.015668896960000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="default"/>
+                                </state>
+                                <connections>
+                                    <segue destination="WkU-v0-Ugu" kind="presentation" modalPresentationStyle="fullScreen" id="Ct9-lT-G5N"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="gLz-vg-U8r"/>
@@ -250,6 +376,19 @@
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="tFT-g2-vIf">
+                                <rect key="frame" x="297" y="27" width="97" height="91"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <rect key="contentStretch" x="0.0" y="0.0" width="0.34999999999999998" height="0.0"/>
+                                <fontDescription key="fontDescription" name="CalligraphyStye" family="Calligraphy Stye" pointSize="19"/>
+                                <state key="normal" title="  Back">
+                                    <color key="titleColor" red="0.24262464049999999" green="0.079528369010000002" blue="0.015668896960000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="default"/>
+                                </state>
+                                <connections>
+                                    <segue destination="WkU-v0-Ugu" kind="presentation" modalPresentationStyle="fullScreen" id="Egm-sj-h5X"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="JrM-8b-jHI"/>
@@ -302,9 +441,16 @@
             <point key="canvasLocation" x="5519" y="905"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="J3e-Ih-yKc"/>
+        <segue reference="kuH-xK-fnc"/>
+    </inferredMetricsTieBreakers>
     <resources>
+        <image name="Affogato" width="446" height="505"/>
         <image name="Affogato Back" width="1242" height="2688"/>
         <image name="Capp Back" width="1242" height="2688"/>
+        <image name="Cappucino" width="449" height="451"/>
+        <image name="Dalgona" width="493" height="447"/>
         <image name="Dalgona Back" width="1242" height="2688"/>
         <image name="Home Page" width="1242" height="2688"/>
         <image name="How To Affogato" width="1242" height="2688"/>
@@ -313,9 +459,12 @@
         <image name="How To Latte" width="1242" height="2688"/>
         <image name="How To Macc" width="1242" height="2688"/>
         <image name="How To Mocha" width="1242" height="2688"/>
+        <image name="Latte" width="490" height="438"/>
         <image name="Latte Back" width="1242" height="2688"/>
         <image name="Macc Back" width="1242" height="2688"/>
+        <image name="Macchiato" width="490" height="440"/>
         <image name="Menu Background" width="1242" height="2688"/>
+        <image name="Mocha" width="473" height="450"/>
         <image name="Mocha Back" width="1242" height="2688"/>
     </resources>
 </document>
