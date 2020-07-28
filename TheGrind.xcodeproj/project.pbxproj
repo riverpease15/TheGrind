@@ -91,18 +91,12 @@
 				DAA7D6A324D07B38001D70C5 /* SceneDelegate.swift */,
 				DAA7D6A524D07B38001D70C5 /* HomeViewController.swift */,
 				1895A1AA24D07E9000BCD671 /* MenuViewController.swift */,
-				1895A1AC24D07FAE00BCD671 /* LatteViewController.swift */,
-				1895A1AE24D07FF400BCD671 /* LatteHowToViewController.swift */,
-				1895A1B024D0804C00BCD671 /* CappViewController.swift */,
-				1895A1B224D0806700BCD671 /* CappHowToViewController.swift */,
-				1895A1B424D080A400BCD671 /* AffogatoViewController.swift */,
-				1895A1B624D080B800BCD671 /* AffogatoHowToViewController.swift */,
-				1895A1B824D080D000BCD671 /* MacchiatoViewController.swift */,
-				1895A1BA24D080EB00BCD671 /* MacchiatoHowToViewController.swift */,
-				1895A1C224D0818700BCD671 /* MochaViewController.swift */,
-				1895A1C424D0819E00BCD671 /* MochaHowToViewController.swift */,
-				1895A1BE24D0815500BCD671 /* DalgonaViewController.swift */,
-				1895A1C024D0816E00BCD671 /* DalgonaHowToViewController.swift */,
+				DAC060A924D092BF006CEE9F /* Latte */,
+				DAC060A824D092B4006CEE9F /* Cappucino */,
+				DAC060A524D0923C006CEE9F /* Affogato */,
+				DAC060A624D0924A006CEE9F /* Macchiato */,
+				DAC060A724D09258006CEE9F /* Mocha */,
+				DAC060A424D09218006CEE9F /* Dalgona */,
 				DAA7D6A724D07B38001D70C5 /* Main.storyboard */,
 				DAA7D6AD24D07B3E001D70C5 /* Assets.xcassets */,
 				DAA7D6AF24D07B3E001D70C5 /* LaunchScreen.storyboard */,
@@ -110,6 +104,60 @@
 				DAA7D6AA24D07B38001D70C5 /* TheGrind.xcdatamodeld */,
 			);
 			path = TheGrind;
+			sourceTree = "<group>";
+		};
+		DAC060A424D09218006CEE9F /* Dalgona */ = {
+			isa = PBXGroup;
+			children = (
+				1895A1BE24D0815500BCD671 /* DalgonaViewController.swift */,
+				1895A1C024D0816E00BCD671 /* DalgonaHowToViewController.swift */,
+			);
+			path = Dalgona;
+			sourceTree = "<group>";
+		};
+		DAC060A524D0923C006CEE9F /* Affogato */ = {
+			isa = PBXGroup;
+			children = (
+				1895A1B424D080A400BCD671 /* AffogatoViewController.swift */,
+				1895A1B624D080B800BCD671 /* AffogatoHowToViewController.swift */,
+			);
+			path = Affogato;
+			sourceTree = "<group>";
+		};
+		DAC060A624D0924A006CEE9F /* Macchiato */ = {
+			isa = PBXGroup;
+			children = (
+				1895A1BA24D080EB00BCD671 /* MacchiatoHowToViewController.swift */,
+				1895A1B824D080D000BCD671 /* MacchiatoViewController.swift */,
+			);
+			path = Macchiato;
+			sourceTree = "<group>";
+		};
+		DAC060A724D09258006CEE9F /* Mocha */ = {
+			isa = PBXGroup;
+			children = (
+				1895A1C224D0818700BCD671 /* MochaViewController.swift */,
+				1895A1C424D0819E00BCD671 /* MochaHowToViewController.swift */,
+			);
+			path = Mocha;
+			sourceTree = "<group>";
+		};
+		DAC060A824D092B4006CEE9F /* Cappucino */ = {
+			isa = PBXGroup;
+			children = (
+				1895A1B224D0806700BCD671 /* CappHowToViewController.swift */,
+				1895A1B024D0804C00BCD671 /* CappViewController.swift */,
+			);
+			path = Cappucino;
+			sourceTree = "<group>";
+		};
+		DAC060A924D092BF006CEE9F /* Latte */ = {
+			isa = PBXGroup;
+			children = (
+				1895A1AE24D07FF400BCD671 /* LatteHowToViewController.swift */,
+				1895A1AC24D07FAE00BCD671 /* LatteViewController.swift */,
+			);
+			path = Latte;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
