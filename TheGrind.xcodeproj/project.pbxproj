@@ -27,6 +27,7 @@
 		DAA7D6AC24D07B38001D70C5 /* TheGrind.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DAA7D6AA24D07B38001D70C5 /* TheGrind.xcdatamodeld */; };
 		DAA7D6AE24D07B3E001D70C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAA7D6AD24D07B3E001D70C5 /* Assets.xcassets */; };
 		DAA7D6B124D07B3E001D70C5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAA7D6AF24D07B3E001D70C5 /* LaunchScreen.storyboard */; };
+		DAC060A324D086AB006CEE9F /* Calligraphy Stye ttf.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DAC060A224D086AB006CEE9F /* Calligraphy Stye ttf.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +53,7 @@
 		DAA7D6AD24D07B3E001D70C5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DAA7D6B024D07B3E001D70C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DAA7D6B224D07B3E001D70C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DAC060A224D086AB006CEE9F /* Calligraphy Stye ttf.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Calligraphy Stye ttf.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +86,7 @@
 		DAA7D6A024D07B38001D70C5 /* TheGrind */ = {
 			isa = PBXGroup;
 			children = (
+				DAC060A224D086AB006CEE9F /* Calligraphy Stye ttf.ttf */,
 				DAA7D6A124D07B38001D70C5 /* AppDelegate.swift */,
 				DAA7D6A324D07B38001D70C5 /* SceneDelegate.swift */,
 				DAA7D6A524D07B38001D70C5 /* HomeViewController.swift */,
@@ -170,6 +173,7 @@
 				DAA7D6B124D07B3E001D70C5 /* LaunchScreen.storyboard in Resources */,
 				DAA7D6AE24D07B3E001D70C5 /* Assets.xcassets in Resources */,
 				DAA7D6A924D07B38001D70C5 /* Main.storyboard in Resources */,
+				DAC060A324D086AB006CEE9F /* Calligraphy Stye ttf.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
