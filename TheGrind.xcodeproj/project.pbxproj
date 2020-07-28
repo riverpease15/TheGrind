@@ -7,9 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1895A1AB24D07E9000BCD671 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1895A1AA24D07E9000BCD671 /* MenuViewController.swift */; };
+		1895A1AD24D07FAE00BCD671 /* LatteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1895A1AC24D07FAE00BCD671 /* LatteViewController.swift */; };
+		1895A1AF24D07FF400BCD671 /* LatteHowToViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1895A1AE24D07FF400BCD671 /* LatteHowToViewController.swift */; };
+		1895A1B124D0804C00BCD671 /* CappViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1895A1B024D0804C00BCD671 /* CappViewController.swift */; };
+		1895A1B324D0806700BCD671 /* CappHowToViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1895A1B224D0806700BCD671 /* CappHowToViewController.swift */; };
+		1895A1B524D080A400BCD671 /* AffogatoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1895A1B424D080A400BCD671 /* AffogatoViewController.swift */; };
+		1895A1B724D080B800BCD671 /* AffogatoHowToViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1895A1B624D080B800BCD671 /* AffogatoHowToViewController.swift */; };
+		1895A1B924D080D000BCD671 /* MacchiatoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1895A1B824D080D000BCD671 /* MacchiatoViewController.swift */; };
+		1895A1BB24D080EB00BCD671 /* MacchiatoHowToViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1895A1BA24D080EB00BCD671 /* MacchiatoHowToViewController.swift */; };
+		1895A1BF24D0815500BCD671 /* DalgonaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1895A1BE24D0815500BCD671 /* DalgonaViewController.swift */; };
+		1895A1C124D0816E00BCD671 /* DalgonaHowToViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1895A1C024D0816E00BCD671 /* DalgonaHowToViewController.swift */; };
+		1895A1C324D0818700BCD671 /* MochaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1895A1C224D0818700BCD671 /* MochaViewController.swift */; };
+		1895A1C524D0819E00BCD671 /* MochaHowToViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1895A1C424D0819E00BCD671 /* MochaHowToViewController.swift */; };
 		DAA7D6A224D07B38001D70C5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA7D6A124D07B38001D70C5 /* AppDelegate.swift */; };
 		DAA7D6A424D07B38001D70C5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA7D6A324D07B38001D70C5 /* SceneDelegate.swift */; };
-		DAA7D6A624D07B38001D70C5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA7D6A524D07B38001D70C5 /* ViewController.swift */; };
+		DAA7D6A624D07B38001D70C5 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA7D6A524D07B38001D70C5 /* HomeViewController.swift */; };
 		DAA7D6A924D07B38001D70C5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAA7D6A724D07B38001D70C5 /* Main.storyboard */; };
 		DAA7D6AC24D07B38001D70C5 /* TheGrind.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DAA7D6AA24D07B38001D70C5 /* TheGrind.xcdatamodeld */; };
 		DAA7D6AE24D07B3E001D70C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAA7D6AD24D07B3E001D70C5 /* Assets.xcassets */; };
@@ -17,10 +30,23 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1895A1AA24D07E9000BCD671 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		1895A1AC24D07FAE00BCD671 /* LatteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LatteViewController.swift; sourceTree = "<group>"; };
+		1895A1AE24D07FF400BCD671 /* LatteHowToViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LatteHowToViewController.swift; sourceTree = "<group>"; };
+		1895A1B024D0804C00BCD671 /* CappViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CappViewController.swift; sourceTree = "<group>"; };
+		1895A1B224D0806700BCD671 /* CappHowToViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CappHowToViewController.swift; sourceTree = "<group>"; };
+		1895A1B424D080A400BCD671 /* AffogatoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AffogatoViewController.swift; sourceTree = "<group>"; };
+		1895A1B624D080B800BCD671 /* AffogatoHowToViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AffogatoHowToViewController.swift; sourceTree = "<group>"; };
+		1895A1B824D080D000BCD671 /* MacchiatoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacchiatoViewController.swift; sourceTree = "<group>"; };
+		1895A1BA24D080EB00BCD671 /* MacchiatoHowToViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacchiatoHowToViewController.swift; sourceTree = "<group>"; };
+		1895A1BE24D0815500BCD671 /* DalgonaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DalgonaViewController.swift; sourceTree = "<group>"; };
+		1895A1C024D0816E00BCD671 /* DalgonaHowToViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DalgonaHowToViewController.swift; sourceTree = "<group>"; };
+		1895A1C224D0818700BCD671 /* MochaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MochaViewController.swift; sourceTree = "<group>"; };
+		1895A1C424D0819E00BCD671 /* MochaHowToViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MochaHowToViewController.swift; sourceTree = "<group>"; };
 		DAA7D69E24D07B38001D70C5 /* TheGrind.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TheGrind.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAA7D6A124D07B38001D70C5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DAA7D6A324D07B38001D70C5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		DAA7D6A524D07B38001D70C5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DAA7D6A524D07B38001D70C5 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		DAA7D6A824D07B38001D70C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DAA7D6AB24D07B38001D70C5 /* TheGrind.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TheGrind.xcdatamodel; sourceTree = "<group>"; };
 		DAA7D6AD24D07B3E001D70C5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -60,7 +86,20 @@
 			children = (
 				DAA7D6A124D07B38001D70C5 /* AppDelegate.swift */,
 				DAA7D6A324D07B38001D70C5 /* SceneDelegate.swift */,
-				DAA7D6A524D07B38001D70C5 /* ViewController.swift */,
+				DAA7D6A524D07B38001D70C5 /* HomeViewController.swift */,
+				1895A1AA24D07E9000BCD671 /* MenuViewController.swift */,
+				1895A1AC24D07FAE00BCD671 /* LatteViewController.swift */,
+				1895A1AE24D07FF400BCD671 /* LatteHowToViewController.swift */,
+				1895A1B024D0804C00BCD671 /* CappViewController.swift */,
+				1895A1B224D0806700BCD671 /* CappHowToViewController.swift */,
+				1895A1B424D080A400BCD671 /* AffogatoViewController.swift */,
+				1895A1B624D080B800BCD671 /* AffogatoHowToViewController.swift */,
+				1895A1B824D080D000BCD671 /* MacchiatoViewController.swift */,
+				1895A1BA24D080EB00BCD671 /* MacchiatoHowToViewController.swift */,
+				1895A1C224D0818700BCD671 /* MochaViewController.swift */,
+				1895A1C424D0819E00BCD671 /* MochaHowToViewController.swift */,
+				1895A1BE24D0815500BCD671 /* DalgonaViewController.swift */,
+				1895A1C024D0816E00BCD671 /* DalgonaHowToViewController.swift */,
 				DAA7D6A724D07B38001D70C5 /* Main.storyboard */,
 				DAA7D6AD24D07B3E001D70C5 /* Assets.xcassets */,
 				DAA7D6AF24D07B3E001D70C5 /* LaunchScreen.storyboard */,
@@ -141,10 +180,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DAA7D6A624D07B38001D70C5 /* ViewController.swift in Sources */,
+				1895A1BB24D080EB00BCD671 /* MacchiatoHowToViewController.swift in Sources */,
+				1895A1B924D080D000BCD671 /* MacchiatoViewController.swift in Sources */,
+				DAA7D6A624D07B38001D70C5 /* HomeViewController.swift in Sources */,
+				1895A1B524D080A400BCD671 /* AffogatoViewController.swift in Sources */,
+				1895A1AB24D07E9000BCD671 /* MenuViewController.swift in Sources */,
+				1895A1B324D0806700BCD671 /* CappHowToViewController.swift in Sources */,
 				DAA7D6A224D07B38001D70C5 /* AppDelegate.swift in Sources */,
+				1895A1AD24D07FAE00BCD671 /* LatteViewController.swift in Sources */,
 				DAA7D6AC24D07B38001D70C5 /* TheGrind.xcdatamodeld in Sources */,
 				DAA7D6A424D07B38001D70C5 /* SceneDelegate.swift in Sources */,
+				1895A1B124D0804C00BCD671 /* CappViewController.swift in Sources */,
+				1895A1C524D0819E00BCD671 /* MochaHowToViewController.swift in Sources */,
+				1895A1C324D0818700BCD671 /* MochaViewController.swift in Sources */,
+				1895A1B724D080B800BCD671 /* AffogatoHowToViewController.swift in Sources */,
+				1895A1AF24D07FF400BCD671 /* LatteHowToViewController.swift in Sources */,
+				1895A1C124D0816E00BCD671 /* DalgonaHowToViewController.swift in Sources */,
+				1895A1BF24D0815500BCD671 /* DalgonaViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
