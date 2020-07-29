@@ -82,6 +82,17 @@
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="50D-dI-YPW">
+                                <rect key="frame" x="315" y="38" width="64" height="66"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="CalligraphyStye" family="Calligraphy Stye" pointSize="19"/>
+                                <state key="normal" title="Back">
+                                    <color key="titleColor" red="0.24262464049999999" green="0.079528369010000002" blue="0.015668896960000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <connections>
+                                    <segue destination="1HU-fd-fPN" kind="presentation" modalPresentationStyle="fullScreen" id="Iws-Ga-vnm"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="9U2-4e-DOe"/>
@@ -137,6 +148,17 @@
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wUb-Qd-CuL">
+                                <rect key="frame" x="322" y="38" width="64" height="66"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="CalligraphyStye" family="Calligraphy Stye" pointSize="19"/>
+                                <state key="normal" title="Back">
+                                    <color key="titleColor" red="0.24262464049999999" green="0.079528369010000002" blue="0.015668896960000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <connections>
+                                    <segue destination="uPA-xP-zD7" kind="presentation" modalPresentationStyle="fullScreen" id="skA-XI-rHm"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="hBY-Xb-kZ6"/>
@@ -300,6 +322,17 @@
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="F6i-kW-zOv">
+                                <rect key="frame" x="320" y="35" width="64" height="66"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="CalligraphyStye" family="Calligraphy Stye" pointSize="19"/>
+                                <state key="normal" title="Back">
+                                    <color key="titleColor" red="0.24262464049999999" green="0.079528369010000002" blue="0.015668896960000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <connections>
+                                    <segue destination="Ddp-q4-NGN" kind="presentation" modalPresentationStyle="fullScreen" id="cYs-BL-1tb"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="bmB-2s-HOd"/>
@@ -355,6 +388,17 @@
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ctz-5N-PmS">
+                                <rect key="frame" x="314" y="35" width="64" height="66"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="CalligraphyStye" family="Calligraphy Stye" pointSize="19"/>
+                                <state key="normal" title="Back">
+                                    <color key="titleColor" red="0.24262464049999999" green="0.079528369010000002" blue="0.015668896960000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <connections>
+                                    <segue destination="jFM-z6-vmW" kind="presentation" modalPresentationStyle="fullScreen" id="FEQ-PP-JbZ"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="Mh6-aK-cps"/>
@@ -410,6 +454,17 @@
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GYy-mk-3Ro">
+                                <rect key="frame" x="318" y="34" width="64" height="66"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="CalligraphyStye" family="Calligraphy Stye" pointSize="19"/>
+                                <state key="normal" title="Back">
+                                    <color key="titleColor" red="0.24262464049999999" green="0.079528369010000002" blue="0.015668896960000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <connections>
+                                    <segue destination="wFR-dH-Qul" kind="presentation" modalPresentationStyle="fullScreen" id="snJ-wx-NTA"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="A2M-k8-bqG"/>
@@ -431,6 +486,17 @@
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qE5-sk-4UE">
+                                <rect key="frame" x="317" y="34" width="64" height="66"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="CalligraphyStye" family="Calligraphy Stye" pointSize="19"/>
+                                <state key="normal" title="Back">
+                                    <color key="titleColor" red="0.24262464049999999" green="0.079528369010000002" blue="0.015668896960000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <connections>
+                                    <segue destination="tS0-la-c7p" kind="presentation" modalPresentationStyle="fullScreen" id="YZ1-TL-6ug"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="deo-QA-IYW"/>
@@ -442,8 +508,13 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
+        <segue reference="jPe-66-kw1"/>
+        <segue reference="Kwj-kb-Mc3"/>
+        <segue reference="H9N-xM-WdD"/>
+        <segue reference="6lN-2J-9et"/>
+        <segue reference="YZ1-TL-6ug"/>
         <segue reference="J3e-Ih-yKc"/>
-        <segue reference="kuH-xK-fnc"/>
+        <segue reference="Iws-Ga-vnm"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Affogato" width="446" height="505"/>
