@@ -10,21 +10,34 @@ import UIKit
 
 class CappViewController: UIViewController {
 
+    @IBOutlet weak var emptycapp: UIImageView!
+    @IBOutlet weak var capp1: UIImageView!
+    @IBOutlet weak var capp2: UIImageView!
+    @IBOutlet weak var capp3: UIImageView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    @IBAction func cappBtn1(_ sender: UIButton) {
+        emptycapp.isHidden = true
+        capp1.isHidden = false
     }
-    */
-
+    
+    @IBAction func cappBtn2(_ sender: UIButton) {
+        emptycapp.isHidden = true
+        capp1.isHidden = true
+        capp2.isHidden = false
+    }
+    
+    @IBAction func cappBtn3(_ sender: UIButton) {
+        emptycapp.isHidden = true
+        capp1.isHidden = true
+        capp2.isHidden = true
+        capp3.isHidden = false
+    }
+    
+    
 }
