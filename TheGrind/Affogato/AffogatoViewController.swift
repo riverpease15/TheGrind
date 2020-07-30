@@ -10,21 +10,25 @@ import UIKit
 
 class AffogatoViewController: UIViewController {
 
+    @IBOutlet weak var emptyAff: UIImageView!
+    @IBOutlet weak var aff1: UIImageView!
+    @IBOutlet weak var aff2: UIImageView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    @IBAction func affBtn1(_ sender: UIButton) {
+        emptyAff.isHidden = true
+        aff1.isHidden = false
     }
-    */
-
+    
+    @IBAction func affBtn2(_ sender: UIButton) {
+        emptyAff.isHidden = true
+        aff1.isHidden = true
+        aff2.isHidden = false
+    }
+    
 }
